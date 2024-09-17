@@ -134,7 +134,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Fork the Repository: Click the "Fork" button at the top right of this page to create a copy of this repository in your account.
 - Clone the Forked Repository:
 ```bash
-git clone https://github.com/your-username/ncssi.git
+git clone https://github.com/miladmzdh/ncssi.git
 cd ncssi
 ```
 - Create a New Branch:
