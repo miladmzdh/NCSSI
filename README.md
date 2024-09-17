@@ -155,5 +155,5 @@ Please ensure that your code follows the PEP 8 style guidelines and includes app
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## References
 - Malekzadeh, M., & Long, J. A. (2023). A network community structure similarity index for weighted networks. PLOS ONE, 18(11), e0292018. https://doi.org/10.1371/journal.pone.0292018
-- NetworkX Documentation
-- NumPy Documentation
+- NetworkX Documentation https://networkx.org/
+- NumPy Documentation https://numpy.org/doc/stable/
