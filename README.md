@@ -37,10 +37,10 @@ You can install these packages using `pip`:
 
 ```bash
 pip install networkx numpy
-Usage
-Function Signature
-python
-Copy code
+```
+## Usage
+# Function Signature
+```
 def ncssi(
     G1,
     G2,
@@ -49,16 +49,21 @@ def ncssi(
     community_attr='community',
     weight_attr='weight'
 ):
+```
     ...
 Parameters
 G1: networkx.Graph
 The first graph to compare.
+
 G2: networkx.Graph
 The second graph to compare.
+
 bidirectional1: bool, optional (default=False)
 If True, treat G1 as bidirectional (undirected). Edge weights will be considered bidirectionally.
+
 bidirectional2: bool, optional (default=False)
 If True, treat G2 as bidirectional (undirected). Edge weights will be considered bidirectionally.
+
 community_attr: str, optional (default='community')
 The node attribute name that stores the community information.
 weight_attr: str, optional (default='weight')
