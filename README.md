@@ -41,16 +41,22 @@ weight_attr='weight'
 ### Parameters
 G1: networkx.Graph
 The first graph to compare.
+
 G2: networkx.Graph
 The second graph to compare.
+
 bidirectional1: bool, optional (default=False)
 If True, treat G1 as bidirectional (undirected). Edge weights will be considered bidirectionally.
+
 bidirectional2: bool, optional (default=False)
 If True, treat G2 as bidirectional (undirected). Edge weights will be considered bidirectionally.
+
 community_attr: str, optional (default='community')
 The node attribute name that stores the community information.
+
 weight_attr: str, optional (default='weight')
 The edge attribute name that stores the weight information.
+
 ### Return Value
 ncssi_value: float
 The NCSSI value between G1 and G2. It ranges from 0 to 1, where 1 indicates identical community structures, and 0 indicates completely dissimilar structures.
