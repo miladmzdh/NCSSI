@@ -1,19 +1,19 @@
 # Network Community Structure Similarity Index (NCSSI)
 A Python implementation of the Network Community Structure Similarity Index (NCSSI) for comparing community structures in weighted networks. This implementation is designed to work with NetworkX graphs and is suitable for inclusion in the NetworkX package.
 ## Table of Contents
-- Introduction
-- Installation
-- Usage
-- Function Signature
-- Parameters
-- Return Value
-- Example
-- Detailed Description
-- NCSSI Algorithm
-- Error Handling
-- Contributing
-- License
-- References
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Function Signature](#function-signature)
+  - [Parameters](#parameters)
+  - [Return Value](#return-value)
+  - [Example](#example)
+- [Detailed Description](#detailed-description)
+  - [NCSSI Algorithm](#ncssi-algorithm)
+  - [Error Handling](#error-handling)
+- [Contributing](#contributing)
+- [License](#license)
+- [References](#references)
 ## Introduction
 The Network Community Structure Similarity Index (NCSSI) is a metric for quantifying the similarity between two community structures in weighted networks. It considers both community labels and edge weights, making it suitable for comparing complex networks where edge weights carry significant information.
 This implementation follows the methodology outlined in the paper:
